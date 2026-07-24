@@ -1,0 +1,9 @@
+{
+  "name": "numair-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Numair Iqbal — personal portfolio site with a live AI agent, built for the FlyRank AI Fluency capstone.",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
