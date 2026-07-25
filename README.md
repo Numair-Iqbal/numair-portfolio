@@ -242,6 +242,11 @@ npm install -g vercel
 vercel dev
 ```
 
+<div align="center">
+<img src="./screenshots/terminal-vercel-dev.png" width="70%" alt="vercel dev running in the terminal">
+<br><sub>Confirms this ships as a real backend service with a live serverless function, not just static HTML.</sub>
+</div>
+
 </td></tr>
 <tr><td align="center"><b>4</b></td><td>
 
@@ -266,7 +271,7 @@ Deployed on **Vercel** — push to `main`, import the repo on [vercel.com](https
 Backend AI Engineering Intern @ FlyRank AI · BS Computer Science, University of Layyah
 
 <a href="https://github.com/Numair-Iqbal"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
-<a href="#"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://linkedin.com/in/numair-iqbal"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
 </div>
 
