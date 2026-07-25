@@ -1,13 +1,17 @@
 <div align="center">
 
+<img src="./screenshots/01-hero-section.png" width="100%" alt="Numair Iqbal portfolio — hero preview">
+
+<br><br>
+
 # Numair Iqbal — Portfolio & Live AI Agent
 
 ### Backend & AI Engineer · Personal brand website with a real, working AI agent shipped on it
 
 <p>
-  <img src="https://img.shields.io/badge/Status-Live-12B3A3?style=for-the-badge" alt="status">
+  <img src="https://img.shields.io/badge/Status-In%20Development-F0A23E?style=for-the-badge" alt="status">
   <img src="https://img.shields.io/badge/AI%20Agent-Groq%20LLaMA%203.3%2070B-5B4FE9?style=for-the-badge" alt="ai">
-  <img src="https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel" alt="vercel">
+  <img src="https://img.shields.io/badge/Runs%20on-Vercel-000000?style=for-the-badge&logo=vercel" alt="vercel">
 </p>
 
 <p>
@@ -19,17 +23,34 @@
   <img src="https://img.shields.io/badge/Groq%20API-F55036?style=flat-square" alt="groq">
 </p>
 
-**[🔗 Live Site](#)** &nbsp;·&nbsp; **[📬 Contact](#-contact)** &nbsp;·&nbsp; **[📂 GitHub](https://github.com/Numair-Iqbal)**
+
+**🔗 Live Site — deploying soon** &nbsp;·&nbsp; **[📬 Contact](#-contact)** &nbsp;·&nbsp; **[📂 GitHub](https://github.com/Numair-Iqbal)**
 
 </div>
 
 <br>
 
+<details>
+<summary><b>📑 Table of Contents</b></summary>
+
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#️-tech-stack)
+- [Screenshots](#-screenshots)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Deployment](#️-deployment)
+- [Contact](#-contact)
+
+</details>
+
+<br>
+
 ## 📌 Overview
 
-This is my personal portfolio — built as the capstone project for FlyRank AI's **General AI Fluency · Impact Project**. It's not a template. It's a real, deployed website with a real, working AI agent embedded on the page, backed by a live serverless API.
+This is my personal portfolio — built as the capstone project for FlyRank AI's **General AI Fluency · Impact Project**. It's not a template. It's a real website with a real, working AI agent embedded on the page, backed by a Vercel serverless function.
 
-The brief was simple: *master the AI stack, build a personal brand with a real website, ship a personal agent.* This repo is that, end to end — design, frontend, backend function, deployment.
+The brief was simple: *master the AI stack, build a personal brand with a real website, ship a personal agent.* This repo is that, end to end — design, frontend, backend function, and deployment.
 
 <br>
 
@@ -103,17 +124,14 @@ The brief was simple: *master the AI stack, build a personal brand with a real w
 
 <table>
 <tr>
-<td align="center" width="33%"><b>Hero Section</b></td>
-<td align="center" width="33%"><b>About</b></td>
-<td align="center" width="33%"><b>What I Build</b></td>
+<td align="center" width="50%"><b>About</b></td>
+<td align="center" width="50%"><b>What I Build</b></td>
 </tr>
 <tr>
-<td align="center"><img src="./screenshots/01-hero-section.png" width="100%" alt="Hero section"></td>
 <td align="center"><img src="./screenshots/02-about-section.png" width="100%" alt="About section"></td>
 <td align="center"><img src="./screenshots/03-services-section.png" width="100%" alt="Services section"></td>
 </tr>
 <tr>
-<td align="center"><sub>Intro, role, live status badge, floating skill chips</sub></td>
 <td align="center"><sub>Bio with tabbed skills — Main Skills / Currently Learning</sub></td>
 <td align="center"><sub>Backend APIs · AI Agents · Data · Automation</sub></td>
 </tr>
@@ -133,6 +151,8 @@ The brief was simple: *master the AI stack, build a personal brand with a real w
 <td align="center"><sub>Get-in-touch panel and footer links</sub></td>
 </tr>
 </table>
+
+<sub><i>Hero section is shown at the top of this README.</i></sub>
 
 </div>
 
@@ -208,6 +228,7 @@ numair-portfolio/
 ├── .env.example              → Template for the required API key
 ├── .gitignore
 ├── package.json
+├── package-lock.json
 └── README.md
 ```
 
@@ -259,7 +280,28 @@ Open **http://localhost:3000** and try the live agent
 
 ## ☁️ Deployment
 
-Deployed on **Vercel** — push to `main`, import the repo on [vercel.com](https://vercel.com), add `GROQ_API_KEY` under **Settings → Environment Variables**, and deploy. No build step required.
+<table>
+<tr><td width="40px" align="center">☁️</td><td>
+
+**Push to `main`** — commit and push this repo to GitHub
+
+</td></tr>
+<tr><td align="center">🔗</td><td>
+
+**Import on [vercel.com](https://vercel.com)** — select this repo, no build configuration needed
+
+</td></tr>
+<tr><td align="center">🔑</td><td>
+
+**Add environment variable** — `GROQ_API_KEY` under **Settings → Environment Variables**
+
+</td></tr>
+<tr><td align="center">🚀</td><td>
+
+**Deploy** — Vercel builds and serves both the static site and the `/api/agent` function automatically
+
+</td></tr>
+</table>
 
 <br>
 
@@ -267,11 +309,22 @@ Deployed on **Vercel** — push to `main`, import the repo on [vercel.com](https
 
 <div align="center">
 
-**Numair Iqbal**
-Backend AI Engineering Intern @ FlyRank AI · BS Computer Science, University of Layyah
+<table>
+<tr><td align="center">
+
+### Numair Iqbal
+
+<img src="https://img.shields.io/badge/Backend%20AI%20Engineering%20Intern-FlyRank%20AI-5B4FE9?style=flat-square" alt="role">
+<img src="https://img.shields.io/badge/BS%20Computer%20Science-University%20of%20Layyah-12B3A3?style=flat-square" alt="education">
+<img src="https://img.shields.io/badge/📍-Layyah%2C%20Pakistan-F0A23E?style=flat-square" alt="location">
+
+<br><br>
 
 <a href="https://github.com/Numair-Iqbal"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 <a href="https://linkedin.com/in/numair-iqbal"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+
+</td></tr>
+</table>
 
 </div>
 
@@ -279,4 +332,8 @@ Backend AI Engineering Intern @ FlyRank AI · BS Computer Science, University of
 
 <div align="center">
 <sub>Built as the capstone for FlyRank AI's General AI Fluency · Impact Project — © 2026 Numair Iqbal</sub>
+
+<br><br>
+
+⭐ **If this repo is useful or interesting, a star helps others find it.**
 </div>
